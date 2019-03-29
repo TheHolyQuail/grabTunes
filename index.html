@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+        <title>GrabTunes</title>
+    </head>
+    <body>
+        <div class="w3-panel w3-pale-yellow w3-leftbar w3-rightbar w3-border-blue" id="animation">
+            <p id="animated">GrabTunes</p>
+        </div>
+        <br>
+        <div id="search">
+            <label for="nameEntry" class="less-emphasis">Search keyword: </label>
+            <input type="text" id="nameEntry" placeholder="ex: artist name">
+            <br>
+            <label for="resCount">Number Of Results: </label>
+            <select id="resCount" placeholder="# of results">
+                <option value="5">5</option>
+                <option value="10">10</option>
+                <option value="20">20</option>
+                <option value="30">30</option>
+                <option value="40">40</option>
+                <option value="50">50</option>
+            </select>
+            <br>
+            <button id="submit">🔍</button>
+            <br>
+        </div>
+        <br>
+        <div id="resArea">
+            <div class="w3-panel w3-pale-green w3-leftbar w3-rightbar w3-border-blue" id="table">
+                <!--this is populated with a table filled with clickable images of the current animals in the zoo-->
+            </div>
+        </div>
+    </body>
+</html>

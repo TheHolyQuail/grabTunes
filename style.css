@@ -1,0 +1,14 @@
+body{
+    text-align: center;
+    font-family: "American Typewriter";
+    color: #c5459d;
+}
+
+#backBox {
+    /*position:relative;*/
+    top: 100%;
+}
+#back {
+    bottom:0;
+    right:2%;
+}
